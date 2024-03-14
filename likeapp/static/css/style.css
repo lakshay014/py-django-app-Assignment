@@ -1,0 +1,45 @@
+.navbar-brand svg{
+    width: 110px;
+    height: 20px;
+    fill: #f05537;
+    margin: 0 24px;
+}
+.me-2{
+    width: 200px !important;
+}
+.search{
+    flex: 1;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.card{
+    margin: auto;
+    border: none;
+    flex-direction: row;
+}
+.card-img-top {
+	width: 250px;
+	height: 150px;
+}
+.bi-suit-heart-fill{
+    color: gray;
+}
+#heart {  
+  font-size: 20px;
+}
+.like-group{
+    display:flex;
+    justify-content: flex-end;
+}
+.like-group i{
+    margin: 0 10px;
+}
+.like-group i:hover{
+    cursor: pointer;
+}
+.event{
+    display: flex;
+    margin-top:20px;
+    justify-content: center;
+}

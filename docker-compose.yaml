@@ -1,0 +1,14 @@
+version: '1'
+services:
+  db:
+    image: "mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: "12345"
+      MYSQL_DATABASE: "events"
+    volumes:
+      - db-data:/db
+    ports:
+      - "3306:3306"
+
+volumes:
+  db-data:
